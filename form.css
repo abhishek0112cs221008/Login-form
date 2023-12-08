@@ -1,0 +1,91 @@
+
+
+Body {  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: pink;  
+    border:0.5px solid;
+    /* border-width: thick ; */
+    width: 25rem;
+    height: 27.5rem;
+    margin: auto;
+    margin-top: 6rem;
+    border-radius: 1%;
+
+} 
+button {   
+    background-color: rgb(43, 46, 46);   
+    width: 30%;  
+     color: whitesmoke;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     /* border: none;   
+     cursor: pointer; */
+     border-radius: 10% 70%;   
+} 
+.container
+{
+    padding: 20px;
+    background-color: white;
+    height: 25rem;
+    border-radius: 1%;
+    /* box-shadow: 3px 2px .5px .5px whitesmoke; */
+
+}
+input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 0.5px solid rgb(189, 189, 189);   
+    box-sizing: border-box;   
+}  
+button:hover {   
+    opacity: 0.7;   
+    background-color: rgb(64, 137, 174);
+    
+}  
+.cancelbtn {   
+    width: auto;   
+    padding: 10px 18px;  
+    margin: 10px 5px;  
+}  
+h2{
+    color: red;
+    display: flex;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+    margin-top: 0.5rem;
+    color: blue;
+    font-family: young sans-serif;
+}
+.line1
+{
+    background-color: black;
+    width: 150px;
+    height: 0.5px;
+    display: flex;
+    margin-top: 10px;
+
+}
+.line2
+{
+    background-color: black;
+    width: 150px;
+    height: 0.5px;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 0%;
+}
+.or
+{
+    width: 97%;
+    display: flex;
+}
+#or1
+{
+    width: 15%;
+    text-align: center;
+}
+
